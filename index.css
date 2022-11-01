@@ -1,0 +1,27 @@
+body {
+    background: lightgreen;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.box {
+    margin: 15px 20px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    cursor: move;
+}
+
+.box.over {
+    border: 3px dotted #666;
+}
